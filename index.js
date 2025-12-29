@@ -20,7 +20,7 @@ function categorias(saldoVitorias){
     }
 }
 
-let saldoVitorias = resultados(101, 0);
+let saldoVitorias = resultados(156, 78);
 let nivel = categorias(saldoVitorias);
 
 console.log(`O Herói tem saldo de ${saldoVitorias} e está no nível de ${nivel}`);
