@@ -2,7 +2,7 @@ function resultados(vitorias, derrotas){
     return vitorias - derrotas;
 } 
 
-function categorias(saldoVitorias){
+function classificacao(saldoVitorias){
     if(saldoVitorias <= 10){
         return "Ferro";
     } else if(saldoVitorias <= 20){
@@ -20,8 +20,8 @@ function categorias(saldoVitorias){
     }
 }
 
-let saldoVitorias = resultados(156, 78);
-let nivel = categorias(saldoVitorias);
+let saldoVitorias = resultados(157, 78);
+let nivel = classificacao(saldoVitorias);
 
 console.log(`O Herói tem saldo de ${saldoVitorias} e está no nível de ${nivel}`);
 
