@@ -3,7 +3,7 @@ function resultados(vitorias, derrotas){
 } 
 
 function classificacao(saldoVitorias){
-    if(saldoVitorias <= 10){
+    if (saldoVitorias <= 10){
         return "Ferro";
     } else if (saldoVitorias <= 20){
         return "Bronze";
